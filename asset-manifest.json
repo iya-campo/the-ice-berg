@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/the-ice-berg/static/css/main.6a4a0578.chunk.css",
+    "main.js": "/the-ice-berg/static/js/main.541c79d1.chunk.js",
+    "main.js.map": "/the-ice-berg/static/js/main.541c79d1.chunk.js.map",
+    "runtime-main.js": "/the-ice-berg/static/js/runtime-main.b216da85.js",
+    "runtime-main.js.map": "/the-ice-berg/static/js/runtime-main.b216da85.js.map",
+    "static/css/2.aa999295.chunk.css": "/the-ice-berg/static/css/2.aa999295.chunk.css",
+    "static/js/2.388f1234.chunk.js": "/the-ice-berg/static/js/2.388f1234.chunk.js",
+    "static/js/2.388f1234.chunk.js.map": "/the-ice-berg/static/js/2.388f1234.chunk.js.map",
+    "static/js/3.d3675724.chunk.js": "/the-ice-berg/static/js/3.d3675724.chunk.js",
+    "static/js/3.d3675724.chunk.js.map": "/the-ice-berg/static/js/3.d3675724.chunk.js.map",
+    "index.html": "/the-ice-berg/index.html",
+    "static/css/2.aa999295.chunk.css.map": "/the-ice-berg/static/css/2.aa999295.chunk.css.map",
+    "static/css/main.6a4a0578.chunk.css.map": "/the-ice-berg/static/css/main.6a4a0578.chunk.css.map",
+    "static/js/2.388f1234.chunk.js.LICENSE.txt": "/the-ice-berg/static/js/2.388f1234.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b216da85.js",
+    "static/css/2.aa999295.chunk.css",
+    "static/js/2.388f1234.chunk.js",
+    "static/css/main.6a4a0578.chunk.css",
+    "static/js/main.541c79d1.chunk.js"
+  ]
+}
