@@ -39,11 +39,11 @@ const Portfolio = () => {
     <div>
       <Landing />
       <div className='animate-1'>
-        <img className='top-wave' src='/images/wave-1.png' alt='' />
+        <img className='top-wave' src='images/wave-1.png' alt='' />
       </div>
       <About />
       <div className='animate-2'>
-        <img className='bottom-wave' src='/images/wave-2.png' alt='' />
+        <img className='bottom-wave' src='images/wave-2.png' alt='' />
       </div>
       <Projects />
       <Contact />
