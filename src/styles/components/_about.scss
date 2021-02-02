@@ -1,0 +1,94 @@
+.about {
+  background-color: $dark-blue;
+  color: $off-white-dark;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @media (min-width: $desktop-breakpoint) {
+    height: 100vh;
+    padding: 0;
+  }
+
+  h1 {
+    color: $light-blue;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-weight: 300;
+  }
+
+  .anchor {
+    filter: invert(95%) sepia(3%) saturate(555%) hue-rotate(187deg) brightness(97%) contrast(93%);
+    margin-bottom: $m-size;
+    width: 60px;
+
+    @media (min-width: $desktop-breakpoint) {
+      width: 120px;
+    }
+  }
+}
+
+.nav-link {
+  color: $off-white-light;
+  font-size: 2.8rem;
+  margin: 0 $xs-size;
+  transition: all 0.15s ease-in-out;
+  text-align: center;
+
+  &:hover {
+    color: $black;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+.about-desc {
+  @media (min-width: $desktop-breakpoint) {
+    border-left: 4px solid #496a81;
+  }
+}
+
+.os-icon {
+  height: 50px;
+  margin: $l-size $s-size;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    height: auto;
+    margin: $m-size $s-size;
+  }
+}
+
+.lang,
+.tool {
+  margin: $m-size 0;
+
+  @media (min-width: $desktop-breakpoint) {
+    margin: 0;
+  }
+}
+
+.pill {
+  cursor: pointer;
+  background-color: $light-blue;
+  border-radius: 30px;
+  color: $blue;
+  display: inline-block;
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin: 0.25rem;
+  padding: $xs-size $s-size;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    background-color: $off-white-light;
+    color: $dark-blue;
+  }
+}

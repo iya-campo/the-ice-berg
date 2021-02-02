@@ -1,0 +1,38 @@
+// flickity
+.carousel {
+  height: 600px;
+  margin: $l-size 0;
+
+  img {
+    height: 100%;
+    margin-right: $s-size;
+  }
+}
+
+// scroll-to-top
+.scroll-top {
+  position: fixed;
+  bottom: 30%;
+  right: 5%;
+}
+
+.scroll-top-btn {
+  visibility: hidden;
+  border: none;
+  background-color: #2a324b;
+  color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px #dddddd;
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  transition: visibility 0s, opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.scroll-top-btn:hover {
+  opacity: 0.8;
+}
+
+button:focus {
+  outline: 0;
+}

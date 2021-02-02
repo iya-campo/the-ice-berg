@@ -1,0 +1,75 @@
+.home {
+  background: $off-white-light;
+  height: 90vh;
+
+  @media (min-width: $desktop-breakpoint) {
+    height: 60vh;
+    padding: 0;
+  }
+}
+
+.home__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.home__welcome,
+.home__pengwing,
+.home__intro {
+  @media (min-width: $desktop-breakpoint) {
+    max-width: calc(100% / 3.5);
+  }
+}
+
+.home__welcome {
+  align-items: center;
+  color: $dark-blue;
+  display: flex;
+  font-size: $font-large;
+  text-align: center;
+
+  @media (min-width: $desktop-breakpoint) {
+    text-align: right;
+  }
+}
+
+.home__pengwing {
+  > img {
+    max-width: 200px;
+    margin: $l-size 0;
+
+    @media (min-width: $desktop-breakpoint) {
+      margin: 0;
+      max-width: 300px;
+      text-align: right;
+    }
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    margin: 0 $l-size;
+  }
+}
+
+.home__intro {
+  text-align: center;
+
+  > h1 {
+    color: $light-blue;
+    font-size: $font-large;
+  }
+
+  > h3 {
+    color: $dark-blue;
+    font-weight: 400;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    text-align: left;
+  }
+}
