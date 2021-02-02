@@ -9,7 +9,7 @@ const Landing = () => {
             <h1>Ahoy! Welcome aboard.</h1>
           </div>
           <div className='home__pengwing' data-aos='flip-up'>
-            <img src='/images/penguin.png' alt='' />
+            <img src='images/penguin.png' alt='' />
           </div>
           <div className='home__intro' data-aos='fade-left'>
             <h1>

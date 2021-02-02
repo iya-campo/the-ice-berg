@@ -38,7 +38,7 @@ const About = () => {
     <div className='content-container centered-container about' id='about-me' data-aos='fade-up'>
       <div className='w-100'>
         <div className='d-flex justify-content-center'>
-          <img className='anchor' src='/images/anchor.svg' alt=''></img>
+          <img className='anchor' src='images/anchor.svg' alt=''></img>
         </div>
         <div className='d-flex justify-content-center'>
           <a href='#about-me' className='nav-link'>

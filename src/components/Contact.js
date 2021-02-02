@@ -5,7 +5,7 @@ const Contact = () => {
     <div className='contact' id='contact'>
       <div className='content-container'>
         <h1 data-aos='fade-right'>
-          Contact Me ~<img src='/images/sailboat.svg' alt=''></img>
+          Contact Me ~<img src='images/sailboat.svg' alt=''></img>
         </h1>
         <div className='contact-details'>
           <div data-aos='fade-right'>

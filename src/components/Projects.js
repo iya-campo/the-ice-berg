@@ -15,9 +15,9 @@ const Projects = () => {
         <h4 className='text-center'>Here's a few samples of my work.</h4>
         <Flickity className={'carousel'} elementType={'div'} options={flickityOptions} disableImagesLoaded={false} reloadOnUpdate static={true}>
           {/* images are approx. 600x880 */}
-          <img src='/images/web-samples/react-1.png' alt='' />
-          <img src='/images/web-samples/react-2.png' alt='' />
-          <img src='/images/web-samples/web-1.png' alt='' />
+          <img src='images/web-samples/react-1.png' alt='' />
+          <img src='images/web-samples/react-2.png' alt='' />
+          <img src='images/web-samples/web-1.png' alt='' />
         </Flickity>
         <div className='d-flex justify-content-center'>
           <button className='view-more' disabled>
