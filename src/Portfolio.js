@@ -45,7 +45,7 @@ const Portfolio = () => {
       <div className='animate-2'>
         <img className='bottom-wave' src='/images/wave-2.png' alt='' />
       </div>
-      <Projects history={history} />
+      <Projects />
       <Contact />
       <div className='scroll-top'>
         <button className='scroll-top-btn'>
