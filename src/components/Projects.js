@@ -32,7 +32,9 @@ const Projects = () => {
         </div>
         <div className='work__github'>
           <p className='d-block'>See more of my projects and live demos on Github!</p>
-          <a href='https://github.com/iya-campo'>https://github.com/iya-campo</a>
+          <a target='_blank' href='https://github.com/iya-campo'>
+            https://github.com/iya-campo
+          </a>
         </div>
       </div>
     </div>

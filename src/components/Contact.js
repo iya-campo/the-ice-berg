@@ -18,14 +18,14 @@ const Contact = () => {
           </div>
         </div>
         <div className='d-flex justify-content-center'>
-          <a href='https://www.facebook.com/floofin/'>
+          <a target='_blank' href='https://www.facebook.com/floofin/'>
             <img src='images/icons/facebook.svg' className='social' alt=''></img>
           </a>
           {/* <a href="https://steamcommunity.com/id/floofinstein/"><image src="res/icons/twitter.svg" className="social"></image></a> */}
-          <a href='https://github.com/iya-campo'>
+          <a target='_blank' href='https://github.com/iya-campo'>
             <img src='images/icons/github.svg' className='social' alt=''></img>
           </a>
-          <a href='https://www.linkedin.com/in/ilyanna-frances-campo-093b2b187/'>
+          <a target='_blank' href='https://www.linkedin.com/in/ilyanna-frances-campo-093b2b187/'>
             <img src='images/icons/linkedin.svg' className='social' alt=''></img>
           </a>
         </div>
