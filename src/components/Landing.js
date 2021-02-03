@@ -17,6 +17,7 @@ const Landing = () => {
             </h1>
             <h3>An aspiring developer with a passion for designing and coding websites.</h3>
           </div>
+          <img className='scroll-indicator' src='images/icons/scroll-down.svg' alt='' />
         </div>
       </div>
     </div>

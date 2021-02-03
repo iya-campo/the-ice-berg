@@ -3,6 +3,8 @@ import Flickity from 'react-flickity-component';
 import '../../node_modules/flickity/css/flickity.css';
 
 const flickityOptions = {
+  autoPlay: 4000,
+  pauseAutoPlayOnHover: true,
   initialIndex: 2,
   wrapAround: true,
 };
@@ -17,12 +19,20 @@ const Projects = () => {
           {/* images are approx. 600x880 */}
           <img src='images/web-samples/react-1.png' alt='' />
           <img src='images/web-samples/react-2.png' alt='' />
+          <img src='images/web-samples/react-3.png' alt='' />
+          <img src='images/web-samples/react-4.png' alt='' />
           <img src='images/web-samples/web-1.png' alt='' />
+          <img src='images/web-samples/web-2.png' alt='' />
+          <img src='images/web-samples/mob-1.png' alt='' />
         </Flickity>
         <div className='d-flex justify-content-center'>
-          <button className='view-more' disabled>
+          <button className='btn btn--view' disabled>
             View more
           </button>
+        </div>
+        <div className='work__github'>
+          <p className='d-block'>See more of my projects and live demos on Github!</p>
+          <a href='https://github.com/iya-campo'>https://github.com/iya-campo</a>
         </div>
       </div>
     </div>

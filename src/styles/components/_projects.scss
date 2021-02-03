@@ -14,25 +14,48 @@
     font-weight: 400;
   }
 
+  .btn--view {
+    background: $grey;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    display: none;
+    font-size: 2em;
+    margin-top: 2rem;
+    padding: $xs-size $m-size;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      background: darken($grey, 5%);
+    }
+  }
+
   @media (min-width: $desktop-breakpoint) {
     height: 100vh;
     padding: 0;
   }
 }
 
-.view-more {
-  background: $grey;
-  border: none;
-  border-radius: 5px;
-  color: $white;
-  display: none;
-  font-size: 2.4rem;
-  margin-top: 2rem;
-  padding: $s-size $xl-size;
-  transition: all 0.15s ease-in-out;
+.work__github {
+  margin-top: $l-size;
+  text-align: center;
 
-  &:hover {
-    cursor: pointer;
-    background: darken($grey, 5%);
+  p {
+    color: $grey;
+    font-size: $font-regular - 0.75rem;
+    font-weight: 400;
+    margin-bottom: $xs-size;
+  }
+  a {
+    color: $dark-blue;
+    font-size: $font-regular;
+    font-weight: 500;
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+      color: $light-blue;
+      text-decoration: none;
+    }
   }
 }

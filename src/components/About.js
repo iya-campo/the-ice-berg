@@ -4,38 +4,44 @@ import Pill from './Pill';
 const About = () => {
   const skills = [
     'React',
-    'Laravel',
     'Spring Boot',
+    'Laravel',
     'Flask',
     'JavaScript',
-    'PHP',
     'Java',
+    'PHP',
     'Python',
+    'Bootstrap',
+    'SASS',
     'HTML5',
     'CSS3',
     'jQuery',
     'AJAX',
-    'JSON',
-    'Bootstrap',
+    'Redux',
+    'MySQL',
+    'Firebase',
   ];
   const tools = [
     'Eclipse',
     'IntelliJ IDEA',
     'VS Code',
-    'GIT',
     'Android Studio',
-    'Python IDLE',
+    'GIT',
+    'Yarn and NPM',
     'MySQL Workbench',
-    'NetBeans',
+    'Unity Engine',
+    'Dev C++',
+    'Python IDLE',
     'Notepad++',
-    'Dev-C++',
     'Photoshop',
     'Illustrator',
-    'MS Office',
+    'Heroku',
+    'Trello',
+    'Azure Boards',
   ];
 
   return (
-    <div className='content-container centered-container about' id='about-me' data-aos='fade-up'>
+    <div className='content-container-wide centered-container about' id='about-me' data-aos='fade-up'>
       <div className='w-100'>
         <div className='d-flex justify-content-center'>
           <img className='anchor' src='images/anchor.svg' alt=''></img>
@@ -54,11 +60,12 @@ const About = () => {
         <div className='row justify-content-center align-items-center mt-5 mb-5'>
           <div className='col-md-6 about-desc' data-aos='fade-right'>
             <h1>About Me</h1>
-            <h3>
-              A li’l rough on the edges, but ever-willing to constantly refine. Writes clean, structured code to create websites with a dash of
-              creativity.
-              {/* I've been working as a developer for over a year and a half, but, having the passion for making websites */}
-            </h3>
+            <h5>
+              Web development has always been one of my passions. Currently, I'm a professional developer with over a year and a half of experience. I
+              specialize in frontend dev, having the capacity to create aesthetic designs as well as code them using both markup and web framework. I
+              like to think I work efficiently as I am already quite familiar with a handful of libraries and techniques which speed up the building
+              process. Furthermore, I'm always on the lookout for the latest web trends to learn and eventually use in the future!
+            </h5>
           </div>
           <div className='col-md-4' data-aos='fade-left'>
             <div className='d-flex justify-content-center'>
@@ -67,7 +74,7 @@ const About = () => {
               <img className='os-icon' src='images/icons/android.png' alt=''></img>
             </div>
             <div className='d-flex justify-content-center'>
-              <h4>Operating Systems</h4>
+              <h5>Operating Systems</h5>
             </div>
           </div>
         </div>

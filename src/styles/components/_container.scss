@@ -1,4 +1,10 @@
-.content-container {
+.content-container-wide {
+  margin: 0 auto;
+  max-width: 150rem;
+  padding: 0 $m-size;
+}
+
+.content-container-normal {
   margin: 0 auto;
   max-width: 120rem;
   padding: 0 $m-size;

@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <div className='contact' id='contact'>
-      <div className='content-container'>
+      <div className='content-container-normal'>
         <h1 data-aos='fade-right'>
           Contact Me ~<img src='images/sailboat.svg' alt=''></img>
         </h1>

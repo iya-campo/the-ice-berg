@@ -49,4 +49,5 @@ h4 {
 .animate-1,
 .animate-2 {
   overflow: hidden;
+  -webkit-backface-visibility: hidden;
 }

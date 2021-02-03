@@ -2,6 +2,16 @@
   background: $off-white-light;
   height: 90vh;
 
+  .scroll-indicator {
+    filter: invert(21%) sepia(17%) saturate(1433%) hue-rotate(163deg) brightness(93%) contrast(95%);
+    height: 15px;
+    margin-top: $l-size;
+
+    @media (min-width: $desktop-breakpoint) {
+      display: none;
+    }
+  }
+
   @media (min-width: $desktop-breakpoint) {
     height: 60vh;
     padding: 0;
