@@ -2,9 +2,7 @@
   "name": "the-ice-berg",
   "version": "0.1.0",
   "private": true,
-  "config": {
-    "homepage": "https://iya-campo.github.io/the-ice-berg/"
-  },
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -24,7 +22,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "dev": "yarn config set the-ice-berg:homepage='https://iya-campo.github.io/the-ice-berg/' && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
