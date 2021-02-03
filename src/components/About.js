@@ -13,6 +13,7 @@ const About = () => {
     'Python',
     'Bootstrap',
     'SASS',
+    'Webpack',
     'HTML5',
     'CSS3',
     'jQuery',
