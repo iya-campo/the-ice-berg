@@ -1,15 +1,18 @@
-// flickity
 .carousel {
-  height: 45vh;
-  margin: $l-size 0;
+  padding-top: 3rem;
+  padding-bottom: -3rem;
+
+  .thumbs-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.carousel-container {
+  max-width: 100%;
 
   @media (min-width: $desktop-breakpoint) {
-    height: 600px;
-  }
-
-  img {
-    height: 100%;
-    margin-right: $s-size;
+    max-width: 80%;
   }
 }
 

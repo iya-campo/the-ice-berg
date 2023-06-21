@@ -1,13 +1,7 @@
 import React from 'react';
-import Flickity from 'react-flickity-component';
-import '../../node_modules/flickity/css/flickity.css';
-
-const flickityOptions = {
-  autoPlay: 4000,
-  pauseAutoPlayOnHover: true,
-  initialIndex: 2,
-  wrapAround: true,
-};
+// import 'flickity/css/flickity.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const Projects = () => {
   return (
@@ -15,25 +9,41 @@ const Projects = () => {
       <div className='w-100'>
         <h1 className='text-center'>My Work</h1>
         <h4 className='text-center'>Here's a few samples of my work.</h4>
-        <Flickity className={'carousel'} elementType={'div'} options={flickityOptions} disableImagesLoaded={false} reloadOnUpdate static>
-          {/* images are approx. 600x880 */}
-          <img src='images/web-samples/react-1.png' alt='' />
-          <img src='images/web-samples/react-2.png' alt='' />
-          <img src='images/web-samples/react-3.png' alt='' />
-          <img src='images/web-samples/react-4.png' alt='' />
-          <img src='images/web-samples/web-1.png' alt='' />
-          <img src='images/web-samples/web-2.png' alt='' />
-          <img src='images/web-samples/mob-1.png' alt='' />
-        </Flickity>
         <div className='d-flex justify-content-center'>
-          <button className='btn btn--view' disabled>
-            View more
-          </button>
+          <div className='carousel-container'>
+            <Carousel>
+              <div>
+                <img src='images/web-samples/react-1.png' />
+              </div>
+              <div>
+                <img src='images/web-samples/react-2.png' />
+              </div>
+              <div>
+                <img src='images/web-samples/react-3.png' />
+              </div>
+              <div>
+                <img src='images/web-samples/react-4.png' />
+              </div>
+              <div>
+                <img src='images/web-samples/web-2.png' />
+              </div>
+            </Carousel>
+          </div>
         </div>
         <div className='work__github'>
           <p className='d-block'>See more of my projects and live demos on Github!</p>
           <a target='_blank' href='https://github.com/iya-campo'>
             https://github.com/iya-campo
+          </a>
+          <p className='d-block' style={{ marginTop: 30 }}>
+            My more latest works:
+          </p>
+          <a target='_blank' href='https://poke-app.pages.dev/'>
+            https://poke-app.pages.dev/
+          </a>
+          <br />
+          <a target='_blank' href='https://little-pastry-shop.pages.dev/'>
+            https://little-pastry-shop.pages.dev/
           </a>
         </div>
       </div>

@@ -6,8 +6,8 @@
   padding-bottom: 5rem;
 
   @media (min-width: $desktop-breakpoint) {
-    height: 100vh;
-    padding: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   h1 {

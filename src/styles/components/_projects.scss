@@ -1,6 +1,5 @@
 .work {
   background: $off-white-dark;
-  height: auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
 
@@ -29,11 +28,6 @@
       cursor: pointer;
       background: darken($grey, 5%);
     }
-  }
-
-  @media (min-width: $desktop-breakpoint) {
-    height: 100vh;
-    padding: 0;
   }
 }
 

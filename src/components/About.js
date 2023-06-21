@@ -5,12 +5,11 @@ const About = () => {
   const skills = [
     'React',
     'Spring Boot',
-    'Laravel',
-    'Flask',
     'JavaScript',
+    'TypeScript',
+    'Next JS',
     'Java',
-    'PHP',
-    'Python',
+    'Material UI',
     'Bootstrap',
     'SASS',
     'Webpack',
@@ -19,27 +18,8 @@ const About = () => {
     'jQuery',
     'AJAX',
     'Redux',
-    'MySQL',
-    'Firebase',
   ];
-  const tools = [
-    'Eclipse',
-    'IntelliJ IDEA',
-    'VS Code',
-    'Android Studio',
-    'GIT',
-    'Yarn and NPM',
-    'MySQL Workbench',
-    'Unity Engine',
-    'Dev C++',
-    'Python IDLE',
-    'Notepad++',
-    'Photoshop',
-    'Illustrator',
-    'Heroku',
-    'Trello',
-    'Azure Boards',
-  ];
+  const tools = ['VS Code', 'Eclipse', 'IntelliJ', 'Postman', 'Kobiton', 'GIT', 'Yarn / NPM', 'Notepad++', 'Adobe Photoshop', 'Jira'];
 
   return (
     <div className='content-container-wide centered-container about' id='about-me' data-aos='fade-up'>
@@ -62,10 +42,10 @@ const About = () => {
           <div className='col-md-6 about-desc' data-aos='fade-right'>
             <h1>About Me</h1>
             <h5>
-              Web development has always been one of my passions. Currently, I'm a professional developer with over a year and a half of experience. I
-              specialize in frontend dev, having the capacity to create aesthetic designs as well as code them using both markup and web framework. I
-              like to think I work efficiently as I am already quite familiar with a handful of libraries and techniques which speed up the building
-              process. Furthermore, I'm always on the lookout for the latest web trends to learn and eventually use in the future!
+              Currently a professional developer with nearly four years of experience. I specialize in frontend development, having the capacity to
+              create my own designs as well as code them using both markup and web frameworks. I like to think I work efficiently as I am already
+              quite familiar with a handful of libraries and techniques which speed up the building process. Furthermore, I'm always on the lookout
+              for the latest web trends to learn and eventually use in the future!
             </h5>
           </div>
           <div className='col-md-4' data-aos='fade-left'>
