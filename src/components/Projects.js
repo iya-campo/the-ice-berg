@@ -36,7 +36,7 @@ const Projects = () => {
             https://github.com/iya-campo
           </a>
           <p className='d-block' style={{ marginTop: 30 }}>
-            My more latest works:
+            More of my latest works:
           </p>
           <a target='_blank' href='https://poke-app.pages.dev/'>
             https://poke-app.pages.dev/
