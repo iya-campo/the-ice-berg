@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.44d37dd1.css",
-    "main.js": "./static/js/main.ae340b0a.js",
-    "static/js/422.890b1bcf.chunk.js": "./static/js/422.890b1bcf.chunk.js",
-    "index.html": "./index.html",
-    "main.44d37dd1.css.map": "./static/css/main.44d37dd1.css.map",
-    "main.ae340b0a.js.map": "./static/js/main.ae340b0a.js.map",
-    "422.890b1bcf.chunk.js.map": "./static/js/422.890b1bcf.chunk.js.map"
+    "main.css": "/the-ice-berg/static/css/main.44d37dd1.css",
+    "main.js": "/the-ice-berg/static/js/main.bb4aa151.js",
+    "static/js/422.890b1bcf.chunk.js": "/the-ice-berg/static/js/422.890b1bcf.chunk.js",
+    "index.html": "/the-ice-berg/index.html",
+    "main.44d37dd1.css.map": "/the-ice-berg/static/css/main.44d37dd1.css.map",
+    "main.bb4aa151.js.map": "/the-ice-berg/static/js/main.bb4aa151.js.map",
+    "422.890b1bcf.chunk.js.map": "/the-ice-berg/static/js/422.890b1bcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44d37dd1.css",
-    "static/js/main.ae340b0a.js"
+    "static/js/main.bb4aa151.js"
   ]
 }
