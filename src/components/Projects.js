@@ -38,12 +38,12 @@ const Projects = () => {
           <p className='d-block' style={{ marginTop: 30 }}>
             More of my latest works:
           </p>
-          <a target='_blank' href='https://poke-app.pages.dev/'>
-            https://poke-app.pages.dev/
+          <a target='_blank' href='https://iya-campo.github.io/poke-app/'>
+            https://iya-campo.github.io/poke-app/
           </a>
           <br />
-          <a target='_blank' href='https://little-pastry-shop.pages.dev/'>
-            https://little-pastry-shop.pages.dev/
+          <a target='_blank' href='https://iya-campo.github.io/little-pastry-shop/'>
+            https://iya-campo.github.io/little-pastry-shop/
           </a>
         </div>
       </div>

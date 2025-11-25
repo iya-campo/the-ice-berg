@@ -4,20 +4,22 @@ import Pill from './Pill';
 const About = () => {
   const skills = [
     'React',
-    'Spring Boot',
-    'JavaScript',
     'TypeScript',
     'Next JS',
+    'Redux',
+    'Spring Boot',
     'Java',
+    'REST API',
     'Material UI',
     'Bootstrap',
+    'Ant Design',
     'SASS',
     'Webpack',
-    'HTML5',
-    'CSS3',
+    'HTML',
+    'CSS',
+    'JavaScript',
     'jQuery',
     'AJAX',
-    'Redux',
   ];
   const tools = ['VS Code', 'Eclipse', 'IntelliJ', 'Postman', 'Kobiton', 'GIT', 'Yarn / NPM', 'Notepad++', 'Adobe Photoshop', 'Jira'];
 
@@ -42,10 +44,9 @@ const About = () => {
           <div className='col-md-6 about-desc' data-aos='fade-right'>
             <h1>About Me</h1>
             <h5>
-              Currently a professional developer with nearly four years of experience. I specialize in frontend development, having the capacity to
-              create my own designs as well as code them using both markup and web frameworks. I like to think I work efficiently as I am already
-              quite familiar with a handful of libraries and techniques which speed up the building process. Furthermore, I'm always on the lookout
-              for the latest web trends to learn and eventually use in the future!
+              I am currently a professional developer with over six years of experience. I specialize in frontend development — having the capacity to
+              create my own designs as well as translate them to clean and scalable code. I am always on the lookout for the latest web trends to learn 
+              and eventually use in the future! My main tech stack is React, TypeScript, and Next JS, but I'm also familiar with Express and REST APIs.
             </h5>
           </div>
           <div className='col-md-4' data-aos='fade-left'>

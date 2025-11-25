@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
           <div data-aos='fade-right' data-aos-delay='100'>
             <span className='cnt-label'>or send me an email!</span>
-            <h1 className='cnt-val'>ilyannacampo@gmail.com</h1>
+            <h1 className='cnt-val'>ilyannadev@gmail.com</h1>
           </div>
         </div>
         <div className='d-flex justify-content-center'>
